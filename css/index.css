@@ -21,8 +21,8 @@ nav{
 }
 
 main{
-    width: 90%;
-    height: 80vh;
+    width: 95%;
+    height: 75vh;
     background: #D5C69A ;
     float: left;
     margin-left: 5%;
@@ -46,8 +46,10 @@ input[type=text], input[type=password]{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1rem;
     text-indent: 5%;
+    background: #fff;
+    color: #612d04;
 }
-input[type=text], input[type=password]:focus{
+input[type=text]:focus,input[type=password]:focus{
     background: #612d04;
     color: #fff;
 }
@@ -67,7 +69,7 @@ input[type=text], input[type=password]:focus{
     float: left;
     margin-left: 0;
     margin-top: 0;
-    width: 50%;
+    width: 30%;
     text-indent: 2%;
 }
 #termos{
@@ -81,3 +83,48 @@ input[type=text], input[type=password]:focus{
     text-align: center;
 }
 
+#bt-login{
+    width: 70%;
+    height: 5vh;
+    float: left;
+    margin-left: 15%;
+    margin-top: 6vh;
+    border: 2px solid #612d04;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(0deg, #350606, #ca8c5c);
+}
+
+
+#bt-face{
+    width: 70%;
+    height: 5vh;
+    float: left;
+    margin-left: 15%;
+    margin-top: 2vh;
+    border: 2px solid #612d04;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(0deg, #1977f2, #061f6e);
+} 
+
+#bt-google{
+    width: 70%;
+    height: 5vh;
+    float: left;
+    margin-left: 15%;
+    margin-top: 2vh;
+    border: 2px solid #612d04;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(0deg, #da1010, #690404);
+}
