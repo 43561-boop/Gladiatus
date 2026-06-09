@@ -96,6 +96,7 @@ input[type=text]:focus,input[type=password]:focus{
     font-weight: bold;
     color: #fff;
     background: linear-gradient(0deg, #350606, #ca8c5c);
+    cursor: pointer;
 }
 
 
@@ -112,6 +113,7 @@ input[type=text]:focus,input[type=password]:focus{
     font-weight: bold;
     color: #fff;
     background: linear-gradient(0deg, #1977f2, #061f6e);
+    cursor: pointer;
 } 
 
 #bt-google{
@@ -127,4 +129,5 @@ input[type=text]:focus,input[type=password]:focus{
     font-weight: bold;
     color: #fff;
     background: linear-gradient(0deg, #da1010, #690404);
+    cursor: pointer;
 }
