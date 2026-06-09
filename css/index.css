@@ -131,3 +131,69 @@ input[type=text]:focus,input[type=password]:focus{
     background: linear-gradient(0deg, #da1010, #690404);
     cursor: pointer;
 }
+
+/*para tablets*/
+@media(min-width: 768px){
+
+}
+
+
+/*para computador*/
+@media (min-width: 1024px){
+body{
+    background: url('../img/fundo 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+main{
+    width: 40%;
+    height: 70vh;
+    margin-left: 34%;
+    margin-top: 6vh;
+}
+
+#log-aut{
+    width: 80%;
+    height: 2vh;
+}
+#log-aut input{
+    width: 10%;
+    float: left;
+}
+
+#log-aut label{
+    width: 40%;
+    height: 10vh;
+    float: left;
+}
+
+#termos{
+    width: 70%;
+    height: 5vh;
+    float: left;
+    margin-left: 1%;
+    
+}
+
+#bt-login{
+    width: 15%;
+    margin-left: 41%;
+    border-radius: 0;
+}
+
+#bt-face{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 0;
+}
+
+#bt-google{
+    border-radius: 0%;
+}
+
+}
